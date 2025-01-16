@@ -11,6 +11,16 @@
 .display-flex{
     display: flex;
 }
+.btn-primary{
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 20px 25px;
+    border: none;
+    color: #FFFFFF;
+    
+}
 /* dark-2 */
 .dark-gray{
     color: #424242;
@@ -59,4 +69,14 @@
     max-width: 862px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 50px;
+}
+.banner-image{
+    width: 100%;
+}
+/* responsive media query */
+@media screen and (max-width: 676px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
 }
